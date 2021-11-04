@@ -10,6 +10,4 @@ fetchBreedDescription(breedName, (error, desc) => {
   }
 });
 
-// fetchBreedDescription('Siberian', (data) => {
-//   console.log(data)
-// });
+
