@@ -16,7 +16,7 @@ describe('fetchBreedDescription', () => {
       done();
     });
   });
-  it('returns a string description for a valid breed, via callback', (done) => {
+  it('returns error or not found message for an invalid breed, via callback', (done) => {
     fetchBreedDescription('Sibrian', (err, desc) => {
       // we expect no error for this scenario
       assert.equal(err, null);
